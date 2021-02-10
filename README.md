@@ -1,1 +1,1 @@
-# guide_utilisation_de_git
+# Guide d'utilisation de Git
