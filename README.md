@@ -50,3 +50,25 @@ Vous devriez voir apparaître l'ensemble des noms de vos derniers commit par ord
 
 Voici par exemple le résultat de <code>git log</code> sur du tutoriel que vous êtes en train de lire. 
 <img src="assets/img/Consulter l'historique des modifications - git log.png">
+
+
+### Les branches, vive la parallélisation
+
+Jusqu'à présent toute des modifications que vous avez fait l'ont été à la suite les unes des autres dans un même historique. Mais imaginons maintenant que vous devez tester un nouvelle fonctionnalité pour votre projet que vous n'êtes pas sûr de garder.
+
+Au lieu d'ajouter cette fonctionalité dans votre projet puis de devoir faire marche arrière et d'être dans la nécéssité de se rappeler de toutes les modifications que vous avez fait pour revenir à votre version avant modification avec Git vous avez à effectuer 2 commandes.
+
+1. Crée une nouvelle branche
+
+		git checkout -b nom_branche_nouvelle_fonctionalité
+
+2. Effectuer vos modifications et vos commits
+
+	Si vous voulez revenir à votre version antérieur à vos dernières modifications exécutez simplement la commande suitante:
+	
+		git checkout master
+
+La commande <code>git checkout nom_de_la_branche</code> permet de se rendre sur une branche déjà existante
+
+Si vous ajouter le paramètre <code>-b</code> cela vous permet de créer une nouvelle branche à partir de votre historique de commits actuel.
+
