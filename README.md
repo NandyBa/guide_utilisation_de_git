@@ -77,3 +77,5 @@ Pour consulter la liste des branches que vous avez créer vous pouvez utiliser:
 	git branch
 La branche qui apparaît en surbrillance est votre branche de travail.
 
+Bien entendu vous pouvez créer plusieurs branches secondaires à partir d'une même branche.
+
