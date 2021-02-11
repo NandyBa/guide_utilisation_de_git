@@ -42,3 +42,8 @@ ou encore avec plusieurs fichiers
 
 La commande *git commit -m "Mon premier commit"* permet de sauvegarder les modifications. Après le -m vous pouvez spécifier le nom de votre modification. Attention n'oubliez pas les guilemets :) .
 
+### Consulter l'historique des modifications
+
+Essayer de faire plusieurs commit pour vous familliariser avec les commandes précédentes puis exécuter et la commande <code>git log</code> et observez le résultat.
+
+Vous devriez voir apparaître l'ensemble des noms de vos derniers commit par ordre antidaté.
