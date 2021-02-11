@@ -72,3 +72,8 @@ La commande <code>git checkout nom_de_la_branche</code> permet de se rendre sur 
 
 Si vous ajouter le paramètre <code>-b</code> cela vous permet de créer une nouvelle branche à partir de votre historique de commits actuel.
 
+Pour consulter la liste des branches que vous avez créer vous pouvez utiliser:
+
+	git branch
+La branche qui apparaît en surbrillance est votre branche de travail.
+
