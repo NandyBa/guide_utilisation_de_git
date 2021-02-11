@@ -79,3 +79,9 @@ La branche qui apparaît en surbrillance est votre branche de travail.
 
 Bien entendu vous pouvez créer plusieurs branches secondaires à partir d'une même branche.
 
+
+**Supprimer une branche**
+
+	git branch -d nom_de_la_branch_a_supprimer
+Attention avant de supprimer une branche d'être sûr de plus en avoir besoin.
+A noté que Git sauvegarde vos fichiers non pas un par un mais commit par commit. Par conséquent plusieurs version d'un même fichier sauvegardé avec Git prend au final moins de place sur votre disque que ces versions sauvegardées hors projet Git.
