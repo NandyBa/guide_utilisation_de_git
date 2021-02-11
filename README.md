@@ -47,3 +47,6 @@ La commande *git commit -m "Mon premier commit"* permet de sauvegarder les modif
 Essayer de faire plusieurs commit pour vous familliariser avec les commandes précédentes puis exécuter et la commande <code>git log</code> et observez le résultat.
 
 Vous devriez voir apparaître l'ensemble des noms de vos derniers commit par ordre antidaté.
+
+Voici par exemple le résultat de <code>git log</code> sur du tutoriel que vous êtes en train de lire. 
+<img src="assets/img/Consulter l'historique des modifications - git log.png">
